@@ -3,10 +3,13 @@ import time
 repetir = "S" 
 while repetir == "S":
 
-    time.sleep(0.3)
-    print("\n\n-------------------------------------------------------MINI SIMULADO PARA ENEM-------------------------------------------------------\n\n")    
-    time.sleep(0.3)
-    print("-------------------------------------------------------REGRAS:-------------------------------------------------------\n")
+ def tracejado (texto):
+    print("-" * 100)
+    print(texto)
+    print("-" * 100)
+
+
+    tracejado(texto)
     time.sleep(0.3)
     print("Você pode adicionar letra maiúscula ou minúscula para a resposta que acha correta, mas se adicionar outros caracteres ou letras, pode ser que o programa quebre. Na dúvida, evite!\n\n")
     time.sleep(0.3)
